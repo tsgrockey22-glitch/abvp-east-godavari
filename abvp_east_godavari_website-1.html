@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#172554">
+<meta name="description" content="ABVP East Godavari student information portal — updates, activities and student enquiries.">
+<title>ABVP East Godavari | Student Information Portal</title>
+<style>
+:root{--navy:#142653;--blue:#244c9b;--saffron:#f2a900;--ink:#172033;--muted:#64748b;--paper:#f5f7fb;--line:#e4e9f2}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);line-height:1.6}
+a{color:inherit}.topline{height:5px;background:linear-gradient(90deg,var(--saffron) 0 33%,white 33% 66%,#198754 66%)}
+header{position:sticky;top:0;z-index:10;background:var(--navy);color:#fff;box-shadow:0 4px 18px #0b173733}
+.nav{max-width:1120px;margin:auto;padding:12px 20px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+.brand{display:flex;align-items:center;gap:11px;text-decoration:none;font-weight:800;letter-spacing:.3px;line-height:1.2}
+.logo{width:45px;height:45px;border:2px solid var(--saffron);border-radius:50%;display:grid;place-items:center;color:var(--saffron);font-size:12px;font-weight:900;flex:none}
+.brand small{display:block;color:#cbd8f2;font-weight:500;font-size:11px;letter-spacing:.2px;margin-top:4px}
+nav{display:flex;gap:19px;flex-wrap:wrap}nav a{text-decoration:none;font-size:13px;color:#edf2ff}nav a:hover{color:#ffd36b}
+.menu-note{display:none}
+.hero{background:radial-gradient(circle at 85% 15%,#3159a3 0,transparent 35%),linear-gradient(120deg,#142653,#1e438b);color:white;padding:76px 20px 70px}
+.wrap{max-width:1120px;margin:auto}.eyebrow{color:#ffd36b;font-size:12px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase}
+.hero h1{font-size:clamp(36px,6vw,62px);line-height:1.06;max-width:760px;margin:14px 0 16px;letter-spacing:-1.5px}
+.hero p{max-width:660px;color:#dbe6fb;font-size:17px;margin:0}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:27px}.btn{display:inline-block;padding:12px 18px;border-radius:9px;text-decoration:none;font-weight:750;font-size:14px}
+.btn-gold{background:var(--saffron);color:#1c2740}.btn-outline{border:1px solid #a9bee8;color:#fff}
+.approval{max-width:1120px;margin:22px auto;padding:13px 16px;border-radius:9px;background:#fff7e6;border:1px solid #f6d58a;color:#714b00;font-size:13px}
+section{padding:58px 20px}.section-head{margin-bottom:25px}.section-head small{color:var(--blue);font-weight:800;letter-spacing:1.2px;text-transform:uppercase;font-size:11px}.section-head h2{font-size:30px;line-height:1.2;color:var(--navy);margin:6px 0}.section-head p{color:var(--muted);max-width:700px;margin:0}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.card{border:1px solid var(--line);border-radius:15px;padding:22px;background:#fff;box-shadow:0 8px 24px #10244a08}.icon{font-size:25px}.card h3{margin:8px 0 5px;color:var(--navy);font-size:18px}.card p{margin:0;color:var(--muted);font-size:14px}
+.soft{background:var(--paper)}.two{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:start}.points{padding-left:20px;color:var(--muted)}.points li{margin:9px 0}.highlight{background:#fff;border-left:4px solid var(--saffron);padding:18px 20px;border-radius:8px;box-shadow:0 5px 20px #10244a08}
+.steps{counter-reset:step}.step{display:flex;gap:13px;margin:15px 0}.num{width:30px;height:30px;flex:none;border-radius:50%;background:#e8efff;color:var(--blue);display:grid;place-items:center;font-weight:800}
+.contact-panel{background:var(--navy);color:white;border-radius:17px;padding:28px}.contact-panel h2{margin:0 0 8px}.contact-panel p{color:#d4def2}.contact-panel a{color:#ffd36b}
+footer{background:#0b1738;color:#c8d3e9;padding:27px 20px;text-align:center;font-size:12px}footer strong{color:white}
+.formbox{background:white;border:1px solid var(--line);border-radius:14px;padding:22px}.formbox label{display:block;font-size:13px;font-weight:700;margin:12px 0 5px}.formbox input,.formbox select,.formbox textarea{width:100%;padding:12px;border:1px solid #cbd5e1;border-radius:8px;font:inherit;background:white}.formbox button{border:0;cursor:pointer;margin-top:15px}.hint{font-size:12px;color:var(--muted)}
+@media(max-width:760px){.nav{align-items:flex-start;flex-direction:column;padding:11px 16px}nav{gap:13px}.hero{padding:54px 19px}.grid,.two{grid-template-columns:1fr}section{padding:44px 18px}.approval{margin:15px 18px}}
+</style>
+</head>
+<body>
+<div class="topline"></div>
+<header>
+ <div class="nav">
+  <a class="brand" href="#home"><span class="logo">ABVP</span><span>ABVP EAST GODAVARI<small>Student Information Portal</small></span></a>
+  <nav aria-label="Main navigation"><a href="#home">Home</a><a href="#about">About</a><a href="#activities">Activities</a><a href="#students">Students</a><a href="#contact">Contact</a></nav>
+ </div>
+</header>
+<main>
+ <section class="hero" id="home">
+  <div class="wrap">
+   <div class="eyebrow">Students • Education • Community</div>
+   <h1>A platform for students across East Godavari.</h1>
+   <p>Find student-focused updates, learn about activities, and discover ways to raise questions and get involved in your campus community.</p>
+   <div class="actions"><a class="btn btn-gold" href="#students">Student Enquiry</a><a class="btn btn-outline" href="#activities">Explore Activities</a></div>
+  </div>
+ </section>
+ <div class="approval"><strong>Website preview:</strong> This is an independent draft/demo. Official ABVP name, logo, office-bearer details and public launch should be used only after the relevant organisation's approval.</div>
+
+ <section id="about">
+  <div class="wrap">
+   <div class="section-head"><small>Who we are</small><h2>About this portal</h2><p>A simple digital information point designed to make student updates easier to find on mobile phones.</p></div>
+   <div class="two">
+    <div><h3 style="color:var(--navy)">A student-friendly space</h3><p style="color:var(--muted)">This draft brings key information into one place. Once authorised, the district team can add verified introductions, official contacts, event reports and useful student resources.</p></div>
+    <div class="highlight"><strong style="color:var(--navy)">Our purpose</strong><p style="margin:7px 0 0;color:var(--muted)">Clear information, accessible updates and a straightforward way for students to send enquiries.</p></div>
+   </div>
+  </div>
+ </section>
+
+ <section class="soft" id="activities">
+  <div class="wrap">
+   <div class="section-head"><small>What's happening</small><h2>Activities & updates</h2><p>Use these sections for verified district-level news and upcoming programmes.</p></div>
+   <div class="grid">
+    <article class="card"><div class="icon">📢</div><h3>Announcements</h3><p>Share confirmed notices, important dates and student information after checking the details.</p></article>
+    <article class="card"><div class="icon">🎓</div><h3>Student programmes</h3><p>Publish details of educational events, campus activities and student development programmes.</p></article>
+    <article class="card"><div class="icon">🤝</div><h3>Community initiatives</h3><p>Highlight approved volunteering, awareness and community-support activities.</p></article>
+   </div>
+  </div>
+ </section>
+
+ <section id="students">
+  <div class="wrap">
+   <div class="section-head"><small>For students</small><h2>Student help & enquiries</h2><p>Students can use this section to find relevant information or prepare an enquiry for the team.</p></div>
+   <div class="two">
+    <div>
+     <h3 style="color:var(--navy)">What can be added here?</h3>
+     <ul class="points"><li>Scholarship and education-related information links</li><li>Campus and examination updates</li><li>Student issue reporting and enquiry contacts</li><li>Verified event registration details</li></ul>
+     <p class="hint">Only verified information and official contact details should be published.</p>
+    </div>
+    <form class="formbox" id="enquiryForm">
+     <h3 style="margin:0;color:var(--navy)">Enquiry form preview</h3>
+     <p class="hint">Demo only — this form does not send or store personal information.</p>
+     <label for="studentName">Name</label><input id="studentName" name="name" autocomplete="name" required placeholder="Your name">
+     <label for="college">College / Institution</label><input id="college" name="college" placeholder="College name">
+     <label for="topic">Enquiry topic</label><select id="topic" name="topic"><option>General enquiry</option><option>Education information</option><option>Scholarship information</option><option>Event information</option><option>Other</option></select>
+     <label for="message">Message</label><textarea id="message" name="message" rows="3" placeholder="Write your question"></textarea>
+     <button class="btn btn-gold" type="submit">Preview enquiry</button>
+     <p id="formMessage" class="hint" aria-live="polite"></p>
+    </form>
+   </div>
+  </div>
+ </section>
+
+ <section class="soft" id="team">
+  <div class="wrap">
+   <div class="section-head"><small>District team</small><h2>Team & office bearers</h2><p>Official names, roles and photographs can be added here after confirmation and approval.</p></div>
+   <div class="grid">
+    <article class="card"><h3>District leadership</h3><p>Verified district-level office-bearer details to be added.</p></article>
+    <article class="card"><h3>City & mandal teams</h3><p>Verified local team contacts to be added.</p></article>
+    <article class="card"><h3>Student volunteers</h3><p>Approved volunteer information and participation details to be added.</p></article>
+   </div>
+  </div>
+ </section>
+
+ <section id="contact">
+  <div class="wrap">
+   <div class="contact-panel">
+    <h2>Connect with the team</h2>
+    <p>Official phone number, email address and social media links will be displayed here after they are confirmed.</p>
+    <p><strong>Location:</strong> East Godavari district, Andhra Pradesh</p>
+    <p><strong>Contact:</strong> To be added after official confirmation</p>
+   </div>
+  </div>
+ </section>
+</main>
+<footer><strong>ABVP East Godavari — Student Information Portal</strong><br>Website concept preview. Not an official publication until authorised.<br>© 2026</footer>
+<script>
+document.getElementById('enquiryForm').addEventListener('submit',function(e){
+ e.preventDefault();
+ const name=document.getElementById('studentName').value.trim();
+ document.getElementById('formMessage').textContent=name ? 'Preview ready for '+name+'. This demo does not submit or save your details.' : 'Please enter your name.';
+});
+</script>
+</body>
+</html>
